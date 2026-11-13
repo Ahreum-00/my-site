@@ -17,6 +17,7 @@
     </nav>
   </header>
   <main>
+
     <section>
       <h2>자기소개</h2>
     <p>
@@ -33,6 +34,8 @@
            target="_blank">IT 교육센터</a>
       </p>
     </section>
+
+
     <section id="contact">
 <h2>연락하기</h2>
   <form action="https://httpbin.org/post" method="post">
@@ -46,8 +49,8 @@
     </P>
     <p>
       <label for="course">문의종류</label>
-        <select id="course" name="course" >
-          <option value="null">고르시오</option>
+        <select id="course" name="course" required>
+          <option value="" disabled selected hidden>문의종류를 고르시오</option>
           <option value="project">프로젝트 제안</option>
           <option value="css">CSS</option>        
         </select>
@@ -60,7 +63,9 @@
     <P>※ 연습용 폼입니다. 입력한 내용은 연습 서버(httpbin.org)로만 전송됩니다.</P>
   </form>
   </section>
+
   </main>
+  
   <footer>
     <p>&copy; 홍길동</p>
   </footer>
