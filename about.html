@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet", href="css/style.css">  
   <title>이아름의 페이지</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
   </header>
   <main>
 
-    <section>
+    <section class="my-self">
       <h2>자기소개</h2>
     <p>
       <a href="about.html#contact">연락하기로 바로 가기</a>
@@ -37,6 +38,7 @@
 
 
     <section id="contact">
+   <div class="form">
 <h2>연락하기</h2>
   <form action="https://httpbin.org/post" method="post">
     <P>
@@ -58,9 +60,11 @@
     <p>
       <label for="memo">내용</label><br>
       <textarea id="memo" name="memo" rows="8" cols="50"></textarea>
+    </div>  
+
     </p>
-    <button type="submit">보내기</button>
-    <P>※ 연습용 폼입니다. 입력한 내용은 연습 서버(httpbin.org)로만 전송됩니다.</P>
+      <button type="submit">보내기</button>
+      <P>※ 연습용 폼입니다. 입력한 내용은 연습 서버(httpbin.org)로만 전송됩니다.</P>
   </form>
   </section>
 

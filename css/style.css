@@ -1,0 +1,47 @@
+header{
+    background: rgba(192, 106, 135, 0.667);
+    color: white;
+    padding: 24px 10px;
+    font-size: 1.125rem;
+    letter-spacing: 0.05em;
+    border-bottom: 4px solid #aaa69e;
+    width: 400px;
+    margin: auto;}
+header h1 {text-align: center;}
+
+footer{
+    background: rgb(212, 211, 211);
+    color: rgb(134, 86, 43);
+    padding: 0.125px 1px;
+    font-size: 1rem;
+    text-align: center;
+    border-top: 1.25px solid #819fd6;
+    margin-left: -40px;}
+
+nav a {color: green;
+    text-decoration:none;
+    font-weight: 300;}
+nav a:hover {text-decoration: underline;}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 2cap;
+    margin-left: 40px;}
+
+
+#IT {border: 1px solid rebeccapurple; padding: 10px 30px;
+    width: 300px;
+    }
+
+aside strong {color: red;}
+
+.my-self {border: 1px solid navy;
+        padding: 10px 5px; width: 350px;
+        margin-top: 20px;}
+
+.form {border: 1px solid navy;
+        padding: 20px; width: 500px;
+        margin-top: 20px;}
+
+.
+.table-space {padding: 20px 30px;}
