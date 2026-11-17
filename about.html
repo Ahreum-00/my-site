@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet", href="css/style.css">  
+  <link rel="stylesheet", href="css/style.css"> 
+  <link rel="icon" href="images/favicon.png">
   <title>이아름의 페이지</title>
 </head>
 <body>
@@ -17,27 +18,25 @@
       </ul>
     </nav>
   </header>
-  <main>
 
-    <section class="my-self">
-      <h2>자기소개</h2>
-    <p>
-      <a href="about.html#contact">연락하기로 바로 가기</a>
-    </p>
-      <p>웹 개발을 배우는 수강생입니다.</p>
+  <div class="page-form">
+    <main>
+      <section class="my-self">
+       <h2>자기소개</h2>
+        <p>웹 개발을 배우는 수강생입니다.</p>
       <ol>
         <li>배우고 싶은 것</li>
         <li>이게 더 어려워요</li>
         <li>뭐가 있을까요</li>
       </ol>
+        <p>
+      <a href="about.html#contact">연락하기로 바로 가기</a>
+    </p>
       <p>
         <a href="index.html/#IT"
            target="_blank">IT 교육센터</a>
       </p>
     </section>
-
-
-    <section id="contact">
    <div class="form">
 <h2>연락하기</h2>
   <form action="https://httpbin.org/post" method="post">
@@ -60,18 +59,17 @@
     <p>
       <label for="memo">내용</label><br>
       <textarea id="memo" name="memo" rows="8" cols="50"></textarea>
-    </div>  
-
+  
     </p>
       <button type="submit">보내기</button>
       <P>※ 연습용 폼입니다. 입력한 내용은 연습 서버(httpbin.org)로만 전송됩니다.</P>
   </form>
-  </section>
-
+  </div>  
   </main>
-  
+  </div>
+
   <footer>
-    <p>&copy; 홍길동</p>
+    <p>&copy; 이아름</p>
   </footer>
 </body>
 </html>
