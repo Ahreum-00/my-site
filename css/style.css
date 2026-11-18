@@ -42,7 +42,7 @@ aside strong {color: red;}
         padding: 20px; width: 500px; box-shadow: #e2e1df;
         margin: 20px;}
 
-.table-space {padding: 20px 30px;}
+.table-space {padding: 20px 30px; overflow-x: auto;}
 
 .day-list {margin: 50px; padding: 10px;
            background-color: white; 
@@ -54,3 +54,13 @@ section, #IT {border: 1px solid #e2e1df; padding: 10px 30px;
 .my-self a{display: flex; align-items: flex-end; text-align: end;}
 .page-form{display: flex; justify-content: center; align-items: center; width: 0 auto;}
 main {width: 1000px;}
+
+@media (max-width:599px){
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        padding: 16px;
+    }
+    nav ul{ flex-wrap: wrap;}
+}
